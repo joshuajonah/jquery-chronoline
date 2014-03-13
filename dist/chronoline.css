@@ -45,7 +45,7 @@
 }
 .chronoline-left-icon,
 .chronoline-right-icon {
-    background: url("sprites.png") no-repeat scroll 0px 0 transparent;
+    background: url("../images/sprites.png") no-repeat scroll 0px 0 transparent;
     height: 15px;
     width: 10px;
     cursor: pointer;
