@@ -4,6 +4,6 @@
   "ignore": [],
   "dependencies": {
     "raphael": "~2.1.0",
-    "qtip2": "~2.0.1"
+    "qtip2": "~2.1.1"
   }
 }
