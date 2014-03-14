@@ -1,9 +1,9 @@
 {
   "name": "jquery-chronoline",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "ignore": [],
   "dependencies": {
-    "raphael": "~2.1.0",
-    "qtip2": "~2.1.1"
+    "raphael": "~2.1.2",
+    "qtip2": "~2.2.0"
   }
 }
