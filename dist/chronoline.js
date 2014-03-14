@@ -451,7 +451,7 @@ function Chronoline(domElement, events, options) {
             if(t.tooltips){
                 var description = myEvent.description;
                 var title = myEvent.title;
-                if(typeof description == "undefined" || description == ''){
+                if(typeof description == "undefined" || description == '' || description == null){
                     description = title;
                     title = '';
                 }
