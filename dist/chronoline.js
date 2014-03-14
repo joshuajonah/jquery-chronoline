@@ -456,8 +456,8 @@ function Chronoline(domElement, events, options) {
                     title = '';
                 }
                 var $node = jQuery(elem.node);
-                if(Raphael.type == 'SVG')
-                    $node = $node.parent();
+                //if(Raphael.type == 'SVG')
+                //    $node = $node.parent();
                 $node.qtip({
                     content: {
                         title: title,
@@ -475,7 +475,7 @@ function Chronoline(domElement, events, options) {
                         fixed: true // Helps to prevent the tooltip from hiding ocassionally when tracking!
                     },
                     style: {
-                        classes: 'qtip-shadow qtip-dark qtip-rounded'
+                        classes: ''
                     }
                 });
             }
