@@ -194,7 +194,7 @@ function Chronoline(domElement, events, options) {
         draggable: false, // requires jQuery, allows mouse dragging
 
         continuousScroll: true,  // requires that scrollable be true, click-and-hold arrows
-        continuousScrollSpeed: 1,  // I believe this is px/s of scroll. There is no easing in it
+        continuousScrollSpeed: 1  // I believe this is px/s of scroll. There is no easing in it
     }
     var t = this;
 
